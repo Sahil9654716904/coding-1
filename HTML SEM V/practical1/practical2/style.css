@@ -1,0 +1,184 @@
+/* Page Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #f5f3ff);
+    min-height: 100vh;
+}
+
+/* Form Card */
+.form-box {
+    width: 520px;
+    max-width: 100%;
+    margin: auto;
+    padding: 35px 40px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Each Form Row */
+.row {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.row > label {
+    display: inline-block;
+    width: 160px;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 260px;
+    padding: 10px 12px;
+
+    font-size: 14px;
+
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+    outline: none;
+    background-color: #fafafa;
+
+    transition: 0.3s;
+}
+
+/* Input Focus Effect */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #2563eb;
+    background-color: white;
+
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+    vertical-align: middle;
+}
+
+/* Gender Section */
+.gender {
+    display: inline-block;
+}
+
+.gender label {
+    width: auto;
+    margin-right: 15px;
+
+    font-weight: normal;
+    color: #333;
+
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    accent-color: #2563eb;
+}
+
+/* Buttons Container */
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Both Buttons */
+input[type="submit"],
+input[type="reset"] {
+    width: 120px;
+    padding: 11px;
+
+    margin: 0 7px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Reset Button */
+input[type="reset"] {
+    background-color: #64748b;
+    color: white;
+}
+
+/* Submit Hover */
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* Reset Hover */
+input[type="reset"]:hover {
+    background-color: #475569;
+    transform: translateY(-2px);
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+
+    .form-box {
+        padding: 25px;
+    }
+
+    .row > label {
+        display: block;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    select,
+    textarea {
+        width: 100%;
+    }
+
+    .gender {
+        display: block;
+    }
+}

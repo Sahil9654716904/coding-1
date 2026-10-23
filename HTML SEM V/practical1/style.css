@@ -1,0 +1,55 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background:#f5f5f5;
+}
+
+.header{
+    background:rgb(21, 128, 0);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.menu{
+    background:#1eff53;
+    text-align:center;
+    padding:10px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+.content{
+    width:80%;
+    margin:20px auto;
+    background:rgba(255, 255, 255, 0.634);
+    padding:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:rgb(45, 128, 0);
+    color:white;
+}
+
+.footer{
+    background:rgb(0, 128, 64);
+    color:rgba(255, 255, 255, 0.432);
+    text-align:center;
+    padding:10px;
+    margin-top:20px;
+}

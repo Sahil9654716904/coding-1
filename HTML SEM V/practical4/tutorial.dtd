@@ -1,0 +1,9 @@
+<!ELEMENT tutorials (tutorial+)>
+
+<!ELEMENT tutorial (title, category, duration, instructor, price)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT instructor (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

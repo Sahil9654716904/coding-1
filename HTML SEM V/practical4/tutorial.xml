@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tutorials SYSTEM "tutorial.dtd">
+<?xml-stylesheet type="text/css" href="tutorial.css"?>
+
+<tutorials>
+
+    <tutorial>
+        <title>HTML Basics</title>
+        <category>Web Development</category>
+        <duration>4 Weeks</duration>
+        <instructor>Rahul Sharma</instructor>
+        <price>Free</price>
+    </tutorial>
+
+    <tutorial>
+        <title>CSS Fundamentals</title>
+        <category>Web Development</category>
+        <duration>3 Weeks</duration>
+        <instructor>Priya Singh</instructor>
+        <price>₹999</price>
+    </tutorial>
+
+    <tutorial>
+        <title>JavaScript Essentials</title>
+        <category>Programming</category>
+        <duration>6 Weeks</duration>
+        <instructor>Amit Kumar</instructor>
+        <price>₹1499</price>
+    </tutorial>
+
+    <tutorial>
+        <title>Python Programming</title>
+        <category>Programming</category>
+        <duration>8 Weeks</duration>
+        <instructor>Neha Verma</instructor>
+        <price>₹1999</price>
+    </tutorial>
+
+</tutorials>
