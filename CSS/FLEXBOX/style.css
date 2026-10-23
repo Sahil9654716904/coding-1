@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ .container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:   wrap;
+    justify-content: space-between;
+    align-items: start; 
+    align-content: stretch;
+    
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    font-size: 2rem;
+}
+
+#bx1{
+    order: 2;
+    flex-shrink: 3;
+}
+
+#bx3{
+    order: 1;
+    flex-shrink: 1;
+}
+
+#bx5{
+    flex-grow: 5;
+    align-self:flex-end;
+}
+
+#bx2{
+    flex-basis: 120px;
+}
+
