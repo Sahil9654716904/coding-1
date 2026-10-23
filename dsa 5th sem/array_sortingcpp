@@ -1,0 +1,109 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int arr[5]={20,30,40,10,5};
+
+//fixed array****
+// sort(arr_name,arr_name +length,less<int>());//accending
+// sort(arr_name,arr_name +length);//accending by defoult
+// sort(arr_name,arr_name +length,greater<int>());//decending
+
+
+
+//count of element
+// int freq=count (arr,arr+len,element);
+
+//location of element
+// int index=find(arr,arr+len,element)-arr;
+// if element note found in arr *return size of array
+
+
+// int first=arr[i];//access element at i
+// num[i]=val;//update value at i
+
+
+//array equality 
+// bool ans =equal(arr1,arr1+len,arr2);
+
+// reverse array
+
+// reverse(num,num+len);
+
+
+//for each
+
+// for(int num:aee_num){
+//     cout<<num<<endl;
+// }
+
+
+//dynamic array
+
+vector<int>vec1;//empty vector
+
+
+vector<int>vec2(5);//vector with 5 element defoult value 0
+// vector<int>vec2(5,default_value);//vector with 5 element defoult value 0
+vector<int>vec3(5,10);//vector with 5 element defoult value 10
+
+// myarr.push_back(element);//add element at end
+
+//swap of element
+// swap(val1,val2);
+
+//count of element
+
+// int freq=count(vec1.begin(),vec1.end(),element);
+
+//removing  element
+// myarr.erase(vec1.begin()+index);
+
+//adding element/vector at index
+// myarr.insert(vec1.begin()+index,val);
+
+//inserting vector
+// vector<int >vec1={10,20,30,50};
+// vector<int >vec2={100,200,300,500};
+// vec1.insert(vec1.end(),vec2.begin(),vec2.end());
+
+//location of element
+// int idx=find(vec.begin(),vec.end(),element)-vec.begin();
+
+
+// reverse
+// reverse(vec1.begin(),vec.end());
+
+
+// 2D vector
+
+// vector<vector<int>> mat; //empty vector
+// vector<vector<int>>mat(n,vector<int>(m));
+
+//access
+// int val=mat[1][3];
+
+//insert an element
+//mat[row_no].insert(mat[row_no].begin()+idx,val);
+
+
+//looping in 2D vector
+// for(auto row:mat){
+//     for(auto num :row)
+// }
+
+
+//string 
+// string str="hello";
+// int len =str.length();
+// int size =str.size();
+// access str[1];
+// access str[2];
+
+
+// char chr=(char)value; convert into char
+// int val=(int)char; convert into integer
+
+
+
+
+}
