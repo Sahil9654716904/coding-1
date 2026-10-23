@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 233px; */
+            /* viewport width  */
+            /* width: 100vw; */
+            width: 80vw;
+            height: 10vh;
+            margin: 10px auto;
+            background-color: aquamarine;
+        }
+
+        span {
+            /* all these not apply */
+            /* border: 2px solid black; */
+            /* width: 233px; */
+            /* viewport width  */
+            /* width: 100vw; */
+            /* width: 80vw; */
+            /* margin: auto; */
+            /* background-color: aquamarine; */
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 233px; */
+            /* viewport width  */
+            /* width: 100vw; */
+            width: 80vw;
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+        .container >div{
+            /* font-size: 2em; */
+            width: 50%;
+            border: 2px solid red;
+            font-size: 2rem;
+        }
+        .container> div >div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+        .mycont{
+            box-sizing: border-box;
+            margin: 23px auto;
+            border: 2px solid black;
+            color:black;
+            font-size: 22px;
+            width: 80vw;
+            /* width: 100vmin; */
+            /* width: 100vh; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- block level element (nev bar) -->
+    <div class="box">
+        this is a box
+    </div>
+
+    <!-- inline element -->
+    <!-- <span>
+this is a another element
+    </span> -->
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at voluptas quisquam doloremque
+            assumenda, quam aliquam asperiores architecto amet soluta ducimus nulla autem ipsam minus praesentium
+            exercitationem obcaecati ab fugiat necessitatibus voluptate et animi voluptates nisi cum? Sunt laudantium
+            beatae voluptatum dicta neque molestiae deserunt ipsa saepe. Esse aspernatur quis quia aut ad soluta officia
+            quod.
+
+           <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, maiores. Tempora libero iure, ratione facilis blanditiis alias maiores a quae. Suscipit ipsa tempora totam praesentium reiciendis, veniam corrupti quis possimus.
+           </div> 
+        </div>
+        <!-- lorem450 -->
+    </div>
+    <div class="mycont">
+        i am another container
+    </div>
+</body>
+
+</html>
